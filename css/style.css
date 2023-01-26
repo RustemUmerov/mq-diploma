@@ -580,6 +580,28 @@ button.button_submit {
 
 }
 @media (max-width: 768px){
+  .header {
+    background-image: url(../img/banner-mobile.jpg);
+    padding-bottom: 177%;
+}
+.header::before {
+    padding-bottom: 177%;
+}
+.nav {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.logo {
+    margin: 112px 0px;
+}
+.sandwich{
+  margin-left: 85%;
+  margin-top: 55px;}
+  h1 {
+    font-size: 26px;
+    line-height: 36px;
+    top: 57%;
+}
   .trends__item, .trends__item::before {
     width: 100%;
     margin-top: 5px;
