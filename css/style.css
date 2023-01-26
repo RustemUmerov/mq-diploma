@@ -351,13 +351,13 @@ ul.thems li {
     margin: 0 auto;
   }
 .our__products {
-    display: flex;justify-content: space-between;padding: 0 20px;
+    display: flex;justify-content: space-between;padding: 0 20px;flex-wrap: wrap;
 }
 .our__product {
   display: flex;
     flex-direction: column;
     width: calc((100% - 130px) / 3);
-    max-width: 300px;  
+    max-width: 300px;  min-width: 250px;
 }
 /*.our__product:nth-child(n+2){
 margin-left: 113px;}*/
@@ -365,6 +365,10 @@ margin-left: 113px;}*/
    
     width: 100%;
    /* padding-bottom: 68%;*/
+}
+.our__product_img img {
+    display: block;
+    width: 100%;
 }
 .img1 { background-image: url(../img/shop-item-desk1.jpg);}
 .img2 { background-image: url(../img/shop-item-desk2.jpg);}
