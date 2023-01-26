@@ -359,12 +359,12 @@ ul.thems li {
     width: calc((100% - 130px) / 3);
     max-width: 300px;  min-width: 250px;
 }
-/*.our__product:nth-child(n+2){
-margin-left: 113px;}*/
 .our__product_img {
-   
     width: 100%;
-   /* padding-bottom: 68%;*/
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: -30px;
+   
 }
 .our__product_img img {
     display: block;
@@ -375,7 +375,7 @@ margin-left: 113px;}*/
 .img3 { background-image: url(../img/shop-item-desk3.jpg);}
 .product_desc {
       border: 3px solid #c1b68d;
-    margin: -30px -20px;
+    /*margin: -30px -20px;*/
     flex-grow: 1;
     padding: 40px 20px;}
 .product_desc h3{
