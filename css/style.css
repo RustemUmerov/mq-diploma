@@ -577,6 +577,8 @@ button.button_submit {
     .img2 { background-image: url(../img/shop-item-tablet2.jpg);}
     .img3 { background-image: url(../img/shop-item-tablet3.jpg);}
     .item img {margin-right: 0;}
+    .our__product{width: calc((100% - 65px) / 2);max-width: 100%;margin-bottom: 30px;}
+    .our__products{justify-content: space-between;}
 
 }
 @media (max-width: 768px){
@@ -621,4 +623,6 @@ button.button_submit {
 #search {
     width: 100%;
 }
+.our__products{justify-content: center;}
+.our__product{width: calc(100% - 65px);max-width: 100%;margin-bottom: 30px;}
 }
